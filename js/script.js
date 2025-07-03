@@ -1,7 +1,4 @@
-// script.js
-
 $(document).ready(function () {
-  // Validación del formulario de contacto
   $('#contactoForm').on('submit', function (e) {
     e.preventDefault();
     const nombre = $('#nombre').val().trim();
@@ -16,7 +13,6 @@ $(document).ready(function () {
     }
   });
 
-  // Evaluación del test
   $('#testForm').on('submit', function (e) {
     e.preventDefault();
     const p1 = $('input[name="p1"]:checked').val();
