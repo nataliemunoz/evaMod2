@@ -40,3 +40,5 @@ Este proyecto corresponde a la evaluación final del Módulo 2: Desarrollo Web. 
 
 https://github.com/nataliemunoz/evaMod2.git
 
+## Licencia
+Este proyecto es solo para fines educativos
