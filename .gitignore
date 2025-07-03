@@ -1,0 +1,12 @@
+# Ignorar imágenes por extensión
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignorar todas las imágenes en una carpeta específica (por ejemplo, 'assets/images')
+assets/images/*
+
+# Ignorar directorios de imágenes
+assets/images/

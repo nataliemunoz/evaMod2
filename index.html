@@ -1,11 +1,64 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | Ciberseguridad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ciberseguridad</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="amenazas.html">Amenazas</a></li>
+          <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class=" text-white text-center bg-primary py-5">
+    <div class="container">
+      <h1 class="display-4">Protege tu vida digital</h1>
+      <p class="lead">Conoce los riesgos y aprende a prevenirlos</p>
+      <img src="img/banner.jpg" alt="Banner ciberseguridad" class="img-fluid mt-4 rounded shadow">
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <section>
+      <h2>¿Qué es la ciberseguridad?</h2>
+      <p>La ciberseguridad es el conjunto de prácticas, herramientas y procesos que tienen como objetivo proteger los sistemas, redes y datos del acceso no autorizado, ciberataques y daños.</p>
+      <p>Incluye medidas como la encriptación, la autenticación de dos factores, firewalls, antivirus y capacitación del usuario final.</p>
+    </section>
+
+    <section class="mt-20">
+      <h3>¿Por qué es importante?</h3>
+      <ul>
+        <li>Protege tu información personal y financiera.</li>
+        <li>Evita fraudes y estafas en línea.</li>
+        <li>Previene el robo de identidad.</li>
+        <li>Garantiza la privacidad y seguridad en tu vida digital.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Ciberseguridad para Todos</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
